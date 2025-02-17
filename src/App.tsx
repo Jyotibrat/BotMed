@@ -309,7 +309,7 @@ function App() {
             </button>
           </div>
           <p className="text-xs text-center mt-2 text-gray-500 dark:text-gray-400">
-            Your privacy is important to us. This is a demo interface - no data is stored or processed.
+            Your privacy is important to us. In this interface - no data is stored or processed.
           </p>
         </div>
       </div>
