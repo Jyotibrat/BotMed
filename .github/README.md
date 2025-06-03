@@ -23,23 +23,81 @@ BotMed/
 ├── .github/
 │   ├── Assets/
 │   │   ├── Contributors/
-│   │   ├── README.md
-│   │   └── 
-│   ├── api/
-│   ├── utils/
-│   └── app.py
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── utils/
-│   │   └── App.tsx
-│   ├── public/
-│   └── package.json
-├── docs/
-├── LICENSE
-├── CODE_OF_CONDUCT.md
-└── README.md
+│   │   │   ├── Rana_Talukdar.png
+│   │   │   ├── Bindupautra_Jyotibrat.png
+│   │   │   ├── Arunim_Gogoi.png
+│   │   │   ├── Ansh_Gaur.jpg
+│   │   │   └── Akshit_Joshi.jpeg
+│   │   │
+│   │   └── logo.png
+│   │
+│   ├── ISSUE_TEMPLATES/
+│   │   ├── bug_report.md
+│   │   └── feature_request.md
+│   │   
+│   ├── CODE_OF_CONDUCT.md
+│   └── READMD.md
+│
+├── Archive/
+│   ├── Notebooks/
+│   │   ├── API.ipynb
+│   │   ├── deepseeko112.ipynb
+│   │   ├── Openai_Whisper_STT_with_NLP.ipynb
+│   │   └── Testing.ipynb
+│   │
+│   ├── Python Scripts/
+│   │   ├── aud2text.py
+│   │   ├── breath_heart_sound.py
+│   │   ├── generate_audio.py
+│   │   └── heart_breath_sound.py
+│   │
+│   ├── Testing Data/
+│   │   └── Audio Data/
+│   │       ├── OPUS Audio Files/
+│   │       │   ├── test1.opus
+│   │       │   ├── test2.opus
+│   │       │   ├── test3.opus
+│   │       │   └── test4.opus
+│   │       │   
+│   │       └── WAV Audio Files/
+│   │           ├── test1.wav
+│   │           ├── test2.wav
+│   │           └── test3.wav
+│   │       
+│   └── README.md
+│
+├── backend/
+│   ├── Notebooks/
+│   │   ├── Main Backend/
+│   │   │   ├── llama_8b_integrated_aud.ipynb
+│   │   │   ├── tumour_class.ipynb
+│   │   │   └── whisper_aud_text.ipynb
+│   │   │
+│   │   └── Speech To Text/
+│   │       └── Faster_Whisper_STT_with_NLP.ipynb
+│   │
+│   └── README.md
+│
+├── public/
+│   └── favicon.ico
+│
+├── src/
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── index.html
+├── eslint.config.js
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── LICENSE
 ```
 
 ## 🚀 Features
@@ -137,7 +195,7 @@ We welcome contributions to improve the BotMed! Please read our [Code of Conduct
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jyotibrat/BotMed/blob/main/LICENSE) file for details.
+This project is licensed under the GPL-3.0 License - see the [LICENSE](https://github.com/Jyotibrat/BotMed/blob/main/LICENSE) file for details.
 
 ## ⚠️ Disclaimer
 
