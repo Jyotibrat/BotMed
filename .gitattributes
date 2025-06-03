@@ -14,8 +14,8 @@ Archive/ export-ignore
 *.ipynb linguist-documentation
 
 # Then specifically include notebooks from backend folder
-backend/*.ipynb -linguist-documentation
-backend/**/*.ipynb -linguist-documentation
+backend/*.ipynb linguist-documentation
+backend/**/*.ipynb linguist-documentation
 backend/Notebooks/*.ipynb -linguist-documentation
 backend/Notebooks/**/*.ipynb -linguist-documentation
 backend/Notebooks/Main Backend/*.ipynb -linguist-documentation
