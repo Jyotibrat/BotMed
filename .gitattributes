@@ -1,2 +1,11 @@
-/.github
-/Archive
+* text=auto
+
+.github/ export-ignore
+Archive/ export-ignore
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+
+*.ipynb diff=jupyternotebook
