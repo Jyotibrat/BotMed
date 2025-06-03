@@ -3,7 +3,7 @@ import json
 
 try:
     # Read the notebook with UTF-8 encoding
-    with open('E:/VS Code Programs/Projects/Web Dev Projects/BotMed/backend/Notebooks/Main Backend/whisper_aud_text (1).ipynb', 'r', encoding='utf-8') as f:
+    with open('E:/VS Code Programs/Projects/Web Dev Projects/BotMed/backend/Notebooks/Main Backend/llama_8b_integrated_aud.ipynb', 'r', encoding='utf-8') as f:
         nb = nbformat.read(f, as_version=4)
     
     # Remove widget metadata
@@ -23,7 +23,7 @@ except UnicodeDecodeError:
     print("Trying alternative encoding fix...")
     # Alternative method using JSON directly
     try:
-        with open('E:/VS Code Programs/Projects/Web Dev Projects/BotMed/backend/Notebooks/Main Backend/whisper_aud_text (1).ipynb', 'r', encoding='utf-8', errors='ignore') as f:
+        with open('E:/VS Code Programs/Projects/Web Dev Projects/BotMed/backend/Notebooks/Main Backend/llama_8b_integrated_aud.ipynb', 'r', encoding='utf-8', errors='ignore') as f:
             data = json.load(f)
         
         if 'widgets' in data.get('metadata', {}):
