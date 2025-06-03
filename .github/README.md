@@ -221,7 +221,7 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](https://g
   <a href="https://github.com/Jyotibrat">
     <img src="./Assets/Contributors/Bindupautra_Jyotibrat.png" alt="Bindupautra Jyotibrat" style="border-radius: 50%; margin: 5px; width: 100px; height: 100px;">
   </a>
-  <a href="https://github.com/">
+  <a href="https://github.com/Akshit7-uni/">
     <img src="./Assets/Contributors/Akshit_Joshi.jpeg" alt="Akshit Joshi" style="border-radius: 50%; margin: 5px; width: 100px; height: 100px;">
   </a>
 </div>
