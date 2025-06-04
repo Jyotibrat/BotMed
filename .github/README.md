@@ -41,7 +41,7 @@ BotMed/
 ├── Archive/
 │   ├── Notebooks/
 │   │   ├── API.ipynb
-│   │   ├── deepseeko112.ipynb
+│   │   ├── deepseek_fine_tune.ipynb
 │   │   ├── Openai_Whisper_STT_with_NLP.ipynb
 │   │   └── Testing.ipynb
 │   │
@@ -53,9 +53,9 @@ BotMed/
 │   │
 │   ├── Testing Data/
 │   │   └── Audio Data/
-│   │       ├── OPUS Audio Files/
+│   │       ├── OPUS and MP3 Audio Files/
 │   │       │   ├── test1.opus
-│   │       │   ├── test2.opus
+│   │       │   ├── test2.mp3
 │   │       │   ├── test3.opus
 │   │       │   └── test4.opus
 │   │       │   
@@ -66,7 +66,7 @@ BotMed/
 │   │       
 │   └── README.md
 │
-├── backend/
+├── Backend/
 │   ├── Notebooks/
 │   │   ├── Main Backend/
 │   │   │   ├── llama_8b_integrated_aud.ipynb
@@ -87,6 +87,7 @@ BotMed/
 │   ├── main.tsx
 │   └── vite-env.d.ts
 │
+├── .gitattributes
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
@@ -132,9 +133,10 @@ BotMed/
 
 ### Prerequisites
 
-- Python 3.8+
-- Node.js 16+
-- npm or yarn
+- [**Python**](https://www.python.org/downloads/) 3.8+ installed
+- [**Node.js**](https://nodejs.org/en/download1) 16+ installed
+- [`npm`](https://www.npmjs.com/) or [`yarn`](https://yarnpkg.com/) installed
+- [**Google Colab**](https://colab.research.google.com/) or [**Kaggle**](https://www.kaggle.com/) Account
 
 ### Backend Setup
 
@@ -145,6 +147,8 @@ BotMed/
     cd "backend/Notebooks"
     ```
 - Upload the Notebooks to the google colab or kaggle to run them (You can run them in your system also if you have a very good GPU).
+
+**Note:** Currently the Backend is in development and the project is not fully deployed yet.
 
 ### Frontend Setup
 
@@ -173,6 +177,8 @@ BotMed/
     npm run dev
     ```
 - Open your browser and navigate to `http://localhost:5173/` to see the application.
+
+**Note:** Check the frontend deployment [**here**](https://botmed.netlify.app/)
 
 ## 🧪 Model Performance
 
