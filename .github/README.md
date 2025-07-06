@@ -240,6 +240,10 @@ This project is licensed under the GPL-3.0 License - see the [LICENSE](https://g
 - Meta AI for LLaMA foundation model
 - Healthcare professionals who provided domain expertise
 
+## Presentation Link
+
+Get the Presentation for the project [here](https://www.canva.com/design/DAGaCl8VEUw/f7KY3gcnwjrO7k1_1qG6Ng/edit?ui=eyJEIjp7IlAiOnsiQiI6ZmFsc2V9fX0)
+
 ## 📧 Contact
 
 **For questions, suggestions, or collaboration opportunities, please reach out to us** [***@here***](mailto:bjyotibrat@gmail.com).
